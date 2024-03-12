@@ -11,7 +11,8 @@ body {
     font-family: "Figtree", sans-serif;
     border-radius: 12px;
     padding: 15px;
-    box-shadow: 10px 10px;
+    border: 2px solid black;
+    box-shadow:  10px 10px;
 }
 
 .blog-card-container h5 {
