@@ -8,28 +8,40 @@ body {
     background-color: #fff;
     font-family: "Figtree", sans-serif;
     border-radius: 12px;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 10px 10px;
 }
 
 .blog-card-container h5 {
     background-color: hsl(47, 88%, 63%) ;
     text-align: center;
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 5px;
     width: 20%;
 }
 
-.blog-card-container h3 {
+.blog-card-container h3:hover {
     color:hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 
 .blog-card-container img:nth-of-type(even) {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
+}
+
+.blog-card-container img{
+    border-radius: 12px;
+}
+
+.blog-card-container p:nth-of-type(even) {
+    color: hsl(0, 0%, 50%)
 }
 
 .blog-card-container span {
     position: relative;
-    bottom: 15px;
+    bottom: 10px;
     padding: 10px;
     font-weight: 800;
 }
