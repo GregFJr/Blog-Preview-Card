@@ -22,6 +22,18 @@ body {
     color:hsl(47, 88%, 63%);
 }
 
+.blog-card-container img:nth-of-type(even) {
+    height: 40px;
+    width: 40px;
+}
+
+.blog-card-container span {
+    position: relative;
+    bottom: 15px;
+    padding: 10px;
+    font-weight: 800;
+}
+
 .attribution {
     margin-top: 5%;
 }
